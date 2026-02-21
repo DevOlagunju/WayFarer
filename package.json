@@ -12,7 +12,9 @@
     "test": "cross-env NODE_ENV=test mocha tests/**/*.test.js --timeout 10000 --exit",
     "test:coverage": "nyc --reporter=html --reporter=text npm test",
     "lint": "eslint src/ tests/",
-    "lint:fix": "eslint src/ tests/ --fix"
+    "lint:fix": "eslint src/ tests/ --fix",
+    "migrate": "node src/config/createTables.js",
+    "seed": "node src/config/seed.js"
   },
   "keywords": [],
   "author": "",

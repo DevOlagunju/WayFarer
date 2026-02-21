@@ -12,6 +12,7 @@
   "rules": {
     "no-console": "off",
     "consistent-return": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "camelcase": "off"
   }
 }
